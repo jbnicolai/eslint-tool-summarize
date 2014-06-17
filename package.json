@@ -1,0 +1,17 @@
+{
+  "name": "eslint-summary",
+  "version": "0.0.0",
+  "description": "",
+  "main": "summary.js",
+  "dependencies": {
+    "github": "~0.1.16",
+    "nunjucks": "~1.0.5",
+    "async": "~0.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}
