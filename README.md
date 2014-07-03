@@ -6,7 +6,7 @@ eslint-summarize
 
 #### Description
 
-Generate a summary of the Eslint rules used in a `.eslintrc` configuration file.
+Generate a summary of the [Eslint Rules](http://eslint.org/docs/rules/) used in a `.eslintrc` configuration file.
 
 #### Install
 
