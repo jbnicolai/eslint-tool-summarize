@@ -1,7 +1,7 @@
 eslint-summarize
 ================
 [![npm](http://img.shields.io/npm/v/eslint-summarize.svg)](https://www.npmjs.org/package/eslint-summarize)
-[![license](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Nate-Wilkins/eslint-summarize/blob/master/LICENSE-MIT)
+[![license](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Nate-Wilkins/eslint-summarize/blob/master/LICENSE)
 [![deps](https://david-dm.org/nate-wilkins/eslint-summarize.png)](https://david-dm.org/nate-wilkins/eslint-summarize)
 
 #### Description
