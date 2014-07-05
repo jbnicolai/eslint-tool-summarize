@@ -7,6 +7,7 @@
 	"type": "git",
 	"url": "http://github.com/nate-wilkins/eslint-summarize"
   },
+  "homepage": "http://github.com/nate-wilkins/eslint-summarize",
   "bugs": "http://github.com/nate-wilkins/eslint-summarize/issues",
   "dependencies": {
     "async": "^0.9.0",
