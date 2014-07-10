@@ -11,10 +11,18 @@ Generate a summary of the [Eslint Rules](http://eslint.org/docs/rules/) used in 
 #### Install
 
 ```
-npm install eslint-summarize
+npm install eslint-summarize -g
 ```
 
 #### Usage
+
+##### Command Line
+
+Make sure the module is installed globally.
+
+```
+eslint-summarize -c ./eslintrc -o ./output.html 
+```
 
 ##### As Module
 
@@ -24,13 +32,6 @@ var summarize = require('eslint-summarize');
 summarize('./.eslintrc', './templates/my-template.html' || null, './output.html', function (err) {
 	// Completed - check err
 });
-```
-
-##### Command Line
-
-Not very pretty nor obvious at the moment.
-```
-node node_modules/eslint-summarize/cli.js -c ./eslintrc -o ./output.html 
 ```
 
 ##### Custom Templates - TemplateContext
