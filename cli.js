@@ -6,7 +6,7 @@ var program = require('commander'),
 var summarize = require('./summarize');
 
 program
-	.version('0.0.1')
+	.version('0.1.0')
 	.option('-c, --config <path>', 'Eslint configuration file')
 	.option('-t, --template [path]', 'Eslint summary template file')
 	.option('-o, --output <path>', 'Output summary file')
