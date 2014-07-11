@@ -10,8 +10,8 @@ Generate a summary of the [Eslint Rules](http://eslint.org/docs/rules/) used in 
 
 #### Install
 
-```
-npm install eslint-summarize -g
+```bash
+$ npm install eslint-summarize -g
 ```
 
 #### Usage
@@ -20,8 +20,8 @@ npm install eslint-summarize -g
 
 Make sure the module is installed globally.
 
-```
-eslint-summarize -c ./eslintrc -o ./output.html 
+```bash
+$ eslint-summarize -c ./eslintrc -o ./output.html 
 ```
 
 ##### As Module
