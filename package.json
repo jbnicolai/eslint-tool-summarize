@@ -1,6 +1,6 @@
 {
   "name": "eslint-summarize",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate a summary of the Eslint Rules used in a .eslintrc configuration file.",
   "main": "summarize.js",
   "bin": { "eslint-summarize": "./cli.js" },
