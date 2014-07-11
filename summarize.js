@@ -8,7 +8,8 @@
  */
 'use strict';
 
-var fs = require('fs');
+var fs = require('fs'),
+	path = require('path');
 
 var intel = require('intel'),
 	async = require('async'),
@@ -29,7 +30,9 @@ nunjucks.configure({
  * @param {function} summarize_callback - indicate when summary was generated
  */
 module.exports = function (configPath, templatePath, outputPath, summarize_callback) {
-	templatePath = templatePath || "./summary-template.html";
+	templatePath = templatePath || path.join(__dirname, "./summary-template.html");
+
+	console.log(templatePath);
 
 	// Rendering context - object that's passed to the template engine
 	var templateContext = {
