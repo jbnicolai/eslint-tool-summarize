@@ -21,7 +21,7 @@ $ npm install eslint-summarize -g
 Make sure the module is installed globally.
 
 ```bash
-$ eslint-summarize -c ./eslintrc -o ./output.html 
+$ eslint-summarize -c ./.eslintrc -o ./output.html 
 ```
 
 ##### As Module
