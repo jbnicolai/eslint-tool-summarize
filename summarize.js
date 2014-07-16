@@ -11,8 +11,7 @@
 var fs = require('fs'),
 	path = require('path');
 
-var intel = require('intel'),
-	async = require('async'),
+var async = require('async'),
 	scrap = require('scrap'),
 	nunjucks = require('nunjucks');
 
