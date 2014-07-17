@@ -6,7 +6,7 @@ eslint-summarize
 
 #### Description
 
-Generate a summary of the [Eslint Rules](http://eslint.org/docs/rules/) used in a `.eslintrc` configuration file.
+Generate a summary of the [ESLint Rules](http://eslint.org/docs/rules/) used in a `.eslintrc` configuration file.
 
 #### Install
 
@@ -29,8 +29,10 @@ $ eslint-summarize -c ./.eslintrc -o ./output.html
 ```javascript
 var summarize = require('eslint-summarize');
 
-summarize('./.eslintrc', './templates/my-template.html' || null, './output.html', function (err) {
-	// Completed - check err
+summarize.load('./.eslintrc', function (err, templateContext) {
+	summarize.generate('./some-template.html', templateContext, function (err) {
+	
+	});
 });
 ```
 
