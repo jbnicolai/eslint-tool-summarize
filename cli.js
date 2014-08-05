@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
-/*
- * eslint-summarize cli
- * https://github.com/Nate-Wilkins/eslint-summarize
- * npm install eslint-summarize
+/**
+ * @script
+ * @author nate-wilkins <nwilkins2012@gmail.com> (https://github.com/nate-wilkins)
+ * @license MIT (c) 2014
  *
- * Copyright (c) 2014 Nate-Wilkins
- * Licensed under the MIT license.
+ * @description
+ * Generate a summary of the ESLint Rules used in a `.eslintrc` configuration file.
  */
 var program = require('commander'),
 	chalk = require('chalk');

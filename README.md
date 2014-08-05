@@ -1,8 +1,8 @@
-eslint-summarize
+eslint-tool-summarize
 ================
-[![npm](http://img.shields.io/npm/v/eslint-summarize.svg)](https://www.npmjs.org/package/eslint-summarize)
-[![license](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Nate-Wilkins/eslint-summarize/blob/master/LICENSE)
-[![deps](https://david-dm.org/nate-wilkins/eslint-summarize.png)](https://david-dm.org/nate-wilkins/eslint-summarize)
+[![npm](http://img.shields.io/npm/v/eslint-tool-summarize.svg)](https://www.npmjs.org/package/eslint-tool-summarize)
+[![license](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Nate-Wilkins/eslint-tool-summarize/blob/master/LICENSE)
+[![deps](https://david-dm.org/nate-wilkins/eslint-tool-summarize.png)](https://david-dm.org/nate-wilkins/eslint-tool-summarize)
 
 #### Description
 
@@ -11,7 +11,7 @@ Generate a summary of the [ESLint Rules](http://eslint.org/docs/rules/) used in 
 #### Install
 
 ```bash
-$ npm install eslint-summarize -g
+$ npm install eslint-tool-summarize -g
 ```
 
 #### Usage
@@ -21,13 +21,13 @@ $ npm install eslint-summarize -g
 Make sure the module is installed globally.
 
 ```bash
-$ eslint-summarize -c ./.eslintrc -o ./output.html 
+$ eslint-tool-summarize -c ./.eslintrc -o ./output.html
 ```
 
 ##### As Module
 
 ```javascript
-var summarize = require('eslint-summarize');
+var summarize = require('eslint-tool-summarize');
 
 summarize.load('./.eslintrc', function (err, templateContext) {
 	summarize.generate('./some-template.html', templateContext, function (err) {
@@ -41,9 +41,9 @@ summarize.load('./.eslintrc', function (err, templateContext) {
 ```
 {
 	config: "",
-	template: "", 
-	output: "", 
-	categories: [ 
+	template: "",
+	output: "",
+	categories: [
 		{
 			name: "",
 			description: "",

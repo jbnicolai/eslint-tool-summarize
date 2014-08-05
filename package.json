@@ -1,22 +1,22 @@
 {
-  "name": "eslint-summarize",
+  "name": "eslint-tool-summarize",
   "version": "0.1.2",
   "description": "Generate a summary of the ESLint Rules used in a .eslintrc configuration file.",
   "main": "summarize.js",
-  "bin": { "eslint-summarize": "./cli.js" },
+  "bin": { "eslint-tool-summarize": "./cli.js" },
   "repository": {
 	"type": "git",
-	"url": "http://github.com/nate-wilkins/eslint-summarize"
+	"url": "http://github.com/nate-wilkins/eslint-tool-summarize"
   },
-  "homepage": "http://github.com/nate-wilkins/eslint-summarize",
-  "bugs": "http://github.com/nate-wilkins/eslint-summarize/issues",
+  "homepage": "http://github.com/nate-wilkins/eslint-tool-summarize",
+  "bugs": "http://github.com/nate-wilkins/eslint-tool-summarize/issues",
   "dependencies": {
-    "async": "^0.9.0",
-    "chalk": "^0.4.0",
-    "commander": "^2.2.0",
-    "intel": "^1.0.0-b3",
-    "nunjucks": "^1.0.5",
-    "scrap": "^0.1.0"
+    "async": "~0.9.0",
+    "chalk": "~0.5.1",
+    "commander": "~2.2.0",
+    "intel": "~1.0.0-b3",
+    "nunjucks": "~1.0.5",
+    "scrap": "~0.1.0"
   },
   "devDependencies": {},
   "scripts": {

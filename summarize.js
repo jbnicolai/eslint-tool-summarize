@@ -1,10 +1,10 @@
-/*
- * eslint-summarize
- * https://github.com/Nate-Wilkins/eslint-summarize
- * npm install eslint-summarize
+/**
+ * @function
+ * @author nate-wilkins <nwilkins2012@gmail.com> (https://github.com/nate-wilkins)
+ * @license MIT (c) 2014
  *
- * Copyright (c) 2014 Nate-Wilkins
- * Licensed under the MIT license.
+ * @description
+ * Summarize a desired configuration file using a summary template
  */
 'use strict';
 
