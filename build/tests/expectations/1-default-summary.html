@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+@template
+@author nate-wilkins <nwilkins2012@gmail.com> (https://github.com/nate-wilkins)
+@license MIT (c) 2014
+
+@description
+Default template used in generating the summery of an `.eslintrc` configuration file
+-->
+<html>
+	<head lang="en">
+		<title>ESLint Rules Summary</title>
+		<style type="text/css">
+			.used_0 { }
+			.used_1 { background-color: yellow; }
+			.used_2 { background: red; }
+		</style>
+	</head>
+
+	<body>
+		<div>
+			<h1>ESLint Configuration</h1>
+			<p>
+				Below are the ESLint rules defined for this project and can be found at "test config". Here are the available rule ID's:
+			</p>
+			<ul>
+				<li class="used_0">0 : rule is off</li>
+				<li class="used_1">1 : rule is on as a warning (doesn't affect exit code)</li>
+				<li class="used_2">2 : rule is on as an error (exit code is 1 when triggered)</li>
+			</ul>
+		</div>
+		<div>
+
+			<h2 id="testCategoryName">testCategoryName</h2>
+			<p>testCategoryDescription</p>
+			<ul>
+
+				<li class="used_0">|testRuleValue| <a href="testRuleLink" target="_blank">testRuleName</a> - testRuleDescription</li>
+
+			</ul>
+
+		</div>
+	</body>
+</html>

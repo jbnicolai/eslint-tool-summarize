@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+@template
+@author nate-wilkins <nwilkins2012@gmail.com> (https://github.com/nate-wilkins)
+@license MIT (c) 2014
+
+@description
+Default template used in generating the summery of an `.eslintrc` configuration file
+-->
+<html>
+	<head lang="en">
+		<title>ESLint Rules Summary</title>
+		<style type="text/css">
+			.used_0 { }
+			.used_1 { background-color: yellow; }
+			.used_2 { background: red; }
+		</style>
+	</head>
+
+	<body>
+		<div>
+			<h1>ESLint Configuration</h1>
+			<p>
+				Below are the ESLint rules defined for this project and can be found at "{{ config }}". Here are the available rule ID's:
+			</p>
+			<ul>
+				<li class="used_0">0 : rule is off</li>
+				<li class="used_1">1 : rule is on as a warning (doesn't affect exit code)</li>
+				<li class="used_2">2 : rule is on as an error (exit code is 1 when triggered)</li>
+			</ul>
+		</div>
+		<div>
+{% for category in categories %}
+			<h2 id="{{ category.name }}">{{ category.name }}</h2>
+			<p>{{ category.description }}</p>
+			<ul>
+{% for rule in category.rules %}
+				<li class="used_{{ rule.used }}">|{{ rule.value if rule.value else 0 }}| <a href="{{ rule.link }}" target="_blank">{{ rule.name }}</a> - {{ rule.description }}</li>
+{% endfor %}
+			</ul>
+{% endfor %}
+		</div>
+	</body>
+</html>

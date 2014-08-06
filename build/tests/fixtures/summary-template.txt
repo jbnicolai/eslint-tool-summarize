@@ -1,0 +1,9 @@
+{{ config }}
+
+{% for category in categories %}
+{{ category.name }}-{{ category.description }}
+
+{% for rule in category.rules %}
+|{{ rule.used }}-{{ rule.value }}| [{{ rule.name }}]({{ rule.link }}): {{ rule.description }}
+{% endfor %}
+{% endfor %}

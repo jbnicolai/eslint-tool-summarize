@@ -1,0 +1,951 @@
+{
+	"config": "./fixtures/.eslintrc",
+	"categories": [
+		{
+			"name": "Possible Errors",
+			"description": "The following rules point out areas where you might have made mistakes.",
+			"rules": [
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-cond-assign",
+					"link": "http://eslint.org/docs/rules/no-cond-assign.html",
+					"description": "disallow assignment in conditional expressions"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-console",
+					"link": "http://eslint.org/docs/rules/no-console.html",
+					"description": "disallow use of console (off by default in the node environment)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-constant-condition",
+					"link": "http://eslint.org/docs/rules/no-constant-condition.html",
+					"description": "disallow use of constant expressions in conditions"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-comma-dangle",
+					"link": "http://eslint.org/docs/rules/no-comma-dangle.html",
+					"description": "disallow trailing commas in object literals"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-control-regex",
+					"link": "http://eslint.org/docs/rules/no-control-regex.html",
+					"description": "disallow control characters in regular expressions"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-debugger",
+					"link": "http://eslint.org/docs/rules/no-debugger.html",
+					"description": "disallow use of debugger"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-dupe-keys",
+					"link": "http://eslint.org/docs/rules/no-dupe-keys.html",
+					"description": "disallow duplicate keys when creating object literals"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-empty",
+					"link": "http://eslint.org/docs/rules/no-empty.html",
+					"description": "disallow empty statements"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-empty-class",
+					"link": "http://eslint.org/docs/rules/no-empty-class.html",
+					"description": "disallow the use of empty character classes in regular expressions"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-ex-assign",
+					"link": "http://eslint.org/docs/rules/no-ex-assign.html",
+					"description": "disallow assigning to the exception in a catch block"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-extra-boolean-cast",
+					"link": "http://eslint.org/docs/rules/no-extra-boolean-cast.html",
+					"description": "disallow double-negation boolean casts in a boolean context"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-extra-parens",
+					"link": "http://eslint.org/docs/rules/no-extra-parens.html",
+					"description": "disallow unnecessary parentheses (off by default)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-extra-semi",
+					"link": "http://eslint.org/docs/rules/no-extra-semi.html",
+					"description": "disallow unnecessary semicolons"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-func-assign",
+					"link": "http://eslint.org/docs/rules/no-func-assign.html",
+					"description": "disallow overwriting functions written as function declarations"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-inner-declarations",
+					"link": "http://eslint.org/docs/rules/no-inner-declarations.html",
+					"description": "disallow function or variable declarations in nested blocks"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-invalid-regexp",
+					"link": "http://eslint.org/docs/rules/no-invalid-regexp.html",
+					"description": "disallow invalid regular expression strings in the RegExp constructor"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-negated-in-lhs",
+					"link": "http://eslint.org/docs/rules/no-negated-in-lhs.html",
+					"description": "disallow negation of the left operand of an in expression"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-obj-calls",
+					"link": "http://eslint.org/docs/rules/no-obj-calls.html",
+					"description": "disallow the use of object properties of the global object (Math and JSON) as functions"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-regex-spaces",
+					"link": "http://eslint.org/docs/rules/no-regex-spaces.html",
+					"description": "disallow multiple spaces in a regular expression literal"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-sparse-arrays",
+					"link": "http://eslint.org/docs/rules/no-sparse-arrays.html",
+					"description": "disallow sparse arrays"
+				},
+				{
+					"used": 1,
+					"value": 1,
+					"name": "no-unreachable",
+					"link": "http://eslint.org/docs/rules/no-unreachable.html",
+					"description": "disallow unreachable statements after a return, throw, continue, or break statement"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "use-isnan",
+					"link": "http://eslint.org/docs/rules/use-isnan.html",
+					"description": "disallow comparisons with the value NaN"
+				},
+				{
+					"used": 0,
+					"value": 0,
+					"name": "valid-jsdoc",
+					"link": "http://eslint.org/docs/rules/valid-jsdoc.html",
+					"description": "Ensure JSDoc comments are valid (off by default)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "valid-typeof",
+					"link": "http://eslint.org/docs/rules/valid-typeof.html",
+					"description": "Ensure that the results of typeof are compared against a valid string"
+				}
+			]
+		},
+		{
+			"name": "Best Practices",
+			"description": "These are rules designed to prevent you from making mistakes. They either prescribe a better way of doing something or help you avoid footguns.",
+			"rules": [
+				{
+					"used": 2,
+					"value": 2,
+					"name": "block-scoped-var",
+					"link": "http://eslint.org/docs/rules/block-scoped-var.html",
+					"description": "treat var statements as if they were block scoped (off by default)"
+				},
+				{
+					"used": 2,
+					"value": [
+						2,
+						15
+					],
+					"name": "complexity",
+					"link": "http://eslint.org/docs/rules/complexity.html",
+					"description": "specify the maximum cyclomatic complexity allowed in a program (off by default)"
+				},
+				{
+					"used": 0,
+					"value": 0,
+					"name": "consistent-return",
+					"link": "http://eslint.org/docs/rules/consistent-return.html",
+					"description": "require return statements to either always or never specify values"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "curly",
+					"link": "http://eslint.org/docs/rules/curly.html",
+					"description": "specify curly brace conventions for all control statements"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "default-case",
+					"link": "http://eslint.org/docs/rules/default-case.html",
+					"description": "require default case in switch statements (off by default)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "dot-notation",
+					"link": "http://eslint.org/docs/rules/dot-notation.html",
+					"description": "encourages use of dot notation whenever possible"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "eqeqeq",
+					"link": "http://eslint.org/docs/rules/eqeqeq.html",
+					"description": "require the use of === and !=="
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "guard-for-in",
+					"link": "http://eslint.org/docs/rules/guard-for-in.html",
+					"description": "make sure for-in loops have an if statement (off by default)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-alert",
+					"link": "http://eslint.org/docs/rules/no-alert.html",
+					"description": "disallow the use of alert, confirm, and prompt"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-caller",
+					"link": "http://eslint.org/docs/rules/no-caller.html",
+					"description": "disallow use of arguments.caller or arguments.callee"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-div-regex",
+					"link": "http://eslint.org/docs/rules/no-div-regex.html",
+					"description": "disallow division operators explicitly at beginning of regular expression (off by default)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-else-return",
+					"link": "http://eslint.org/docs/rules/no-else-return.html",
+					"description": "disallow else after a return in an if (off by default)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-empty-label",
+					"link": "http://eslint.org/docs/rules/no-empty-label.html",
+					"description": "disallow use of labels for anything other then loops and switches"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-eq-null",
+					"link": "http://eslint.org/docs/rules/no-eq-null.html",
+					"description": "disallow comparisons to null without a type-checking operator (off by default)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-eval",
+					"link": "http://eslint.org/docs/rules/no-eval.html",
+					"description": "disallow use of eval()"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-extend-native",
+					"link": "http://eslint.org/docs/rules/no-extend-native.html",
+					"description": "disallow adding to native types"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-fallthrough",
+					"link": "http://eslint.org/docs/rules/no-fallthrough.html",
+					"description": "disallow fallthrough of case statements"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-floating-decimal",
+					"link": "http://eslint.org/docs/rules/no-floating-decimal.html",
+					"description": "disallow the use of leading or trailing decimal points in numeric literals (off by default)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-implied-eval",
+					"link": "http://eslint.org/docs/rules/no-implied-eval.html",
+					"description": "disallow use of eval()-like methods"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-labels",
+					"link": "http://eslint.org/docs/rules/no-labels.html",
+					"description": "disallow use of labeled statements"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-iterator",
+					"link": "http://eslint.org/docs/rules/no-iterator.html",
+					"description": "disallow usage of __iterator__ property"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-lone-blocks",
+					"link": "http://eslint.org/docs/rules/no-lone-blocks.html",
+					"description": "disallow unnecessary nested blocks"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-loop-func",
+					"link": "http://eslint.org/docs/rules/no-loop-func.html",
+					"description": "disallow creation of functions within loops"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-multi-str",
+					"link": "http://eslint.org/docs/rules/no-multi-str.html",
+					"description": "disallow use of multiline strings"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-native-reassign",
+					"link": "http://eslint.org/docs/rules/no-native-reassign.html",
+					"description": "disallow reassignments of native objects"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-new",
+					"link": "http://eslint.org/docs/rules/no-new.html",
+					"description": "disallow use of new operator when not part of the assignment or comparison"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-new-func",
+					"link": "http://eslint.org/docs/rules/no-new-func.html",
+					"description": "disallow use of new operator for Function object"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-new-wrappers",
+					"link": "http://eslint.org/docs/rules/no-new-wrappers.html",
+					"description": "disallows creating new instances of String,Number, and Boolean"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-octal",
+					"link": "http://eslint.org/docs/rules/no-octal.html",
+					"description": "disallow use of octal literals"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-octal-escape",
+					"link": "http://eslint.org/docs/rules/no-octal-escape.html",
+					"description": "disallow use of octal escape sequences in string literals, such as var foo = \"Copyright \\251\";"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-proto",
+					"link": "http://eslint.org/docs/rules/no-proto.html",
+					"description": "disallow usage of __proto__ property"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-redeclare",
+					"link": "http://eslint.org/docs/rules/no-redeclare.html",
+					"description": "disallow declaring the same variable more then once"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-return-assign",
+					"link": "http://eslint.org/docs/rules/no-return-assign.html",
+					"description": "disallow use of assignment in return statement"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-script-url",
+					"link": "http://eslint.org/docs/rules/no-script-url.html",
+					"description": "disallow use of javascript: urls."
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-self-compare",
+					"link": "http://eslint.org/docs/rules/no-self-compare.html",
+					"description": "disallow comparisons where both sides are exactly the same (off by default)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-sequences",
+					"link": "http://eslint.org/docs/rules/no-sequences.html",
+					"description": "disallow use of comma operator"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-unused-expressions",
+					"link": "http://eslint.org/docs/rules/no-unused-expressions.html",
+					"description": "disallow usage of expressions in statement position"
+				},
+				{
+					"used": 0,
+					"value": [
+						0,
+						{
+							"terms": [
+								"todo",
+								"fixme"
+							],
+							"location": "anywhere"
+						}
+					],
+					"name": "no-warning-comments",
+					"link": "http://eslint.org/docs/rules/no-warning-comments.html",
+					"description": "disallow usage of configurable warning terms in comments"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-with",
+					"link": "http://eslint.org/docs/rules/no-with.html",
+					"description": "disallow use of the with statement"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "radix",
+					"link": "http://eslint.org/docs/rules/radix.html",
+					"description": "require use of the second argument for parseInt() (off by default)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "wrap-iife",
+					"link": "http://eslint.org/docs/rules/wrap-iife.html",
+					"description": "require immediate function invocation to be wrapped in parentheses (off by default)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "yoda",
+					"link": "http://eslint.org/docs/rules/yoda.html",
+					"description": "require or disallow Yoda conditions"
+				}
+			]
+		},
+		{
+			"name": "Strict Mode",
+			"description": "These rules relate to using strict mode.",
+			"rules": [
+				{
+					"used": 0,
+					"value": 0,
+					"name": "no-global-strict",
+					"link": "http://eslint.org/docs/rules/no-global-strict.html",
+					"description": "disallow the \"use strict\" pragma in the global scope (off by default in the node environment)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-extra-strict",
+					"link": "http://eslint.org/docs/rules/no-extra-strict.html",
+					"description": "disallow unnecessary use of \"use strict\"; when already in strict mode"
+				},
+				{
+					"used": 0,
+					"value": 0,
+					"name": "strict",
+					"link": "http://eslint.org/docs/rules/strict.html",
+					"description": "require that all functions are run in strict mode"
+				}
+			]
+		},
+		{
+			"name": "Variables",
+			"description": "These rules have to do with variable declarations.",
+			"rules": [
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-catch-shadow",
+					"link": "http://eslint.org/docs/rules/no-catch-shadow.html",
+					"description": "disallow the catch clause parameter name being the same as a variable in the outer scope (off by default in the node environment)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-delete-var",
+					"link": "http://eslint.org/docs/rules/no-delete-var.html",
+					"description": "disallow deletion of variables"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-label-var",
+					"link": "http://eslint.org/docs/rules/no-label-var.html",
+					"description": "disallow labels that share a name with a variable"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-shadow",
+					"link": "http://eslint.org/docs/rules/no-shadow.html",
+					"description": "disallow declaration of variables already declared in the outer scope"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-shadow-restricted-names",
+					"link": "http://eslint.org/docs/rules/no-shadow-restricted-names.html",
+					"description": "disallow shadowing of names such as arguments"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-undef",
+					"link": "http://eslint.org/docs/rules/no-undef.html",
+					"description": "disallow use of undeclared variables unless mentioned in a /*global */ block"
+				},
+				{
+					"used": 0,
+					"value": 0,
+					"name": "no-undefined",
+					"link": "http://eslint.org/docs/rules/no-undefined.html",
+					"description": "disallow use of undefined variable (off by default)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-undef-init",
+					"link": "http://eslint.org/docs/rules/no-undef-init.html",
+					"description": "disallow use of undefined when initializing variables"
+				},
+				{
+					"used": 0,
+					"value": 0,
+					"name": "no-unused-vars",
+					"link": "http://eslint.org/docs/rules/no-unused-vars.html",
+					"description": "disallow declaration of variables that are not used in the code"
+				},
+				{
+					"used": 0,
+					"value": 0,
+					"name": "no-use-before-define",
+					"link": "http://eslint.org/docs/rules/no-use-before-define.html",
+					"description": "disallow use of variables before they are defined"
+				}
+			]
+		},
+		{
+			"name": "Node.js",
+			"description": "These rules are specific to JavaScript running on Node.js.",
+			"rules": [
+				{
+					"used": 2,
+					"value": 2,
+					"name": "handle-callback-err",
+					"link": "http://eslint.org/docs/rules/handle-callback-err.html",
+					"description": "enforces error handling in callbacks (off by default) (on by default in the node environment)"
+				},
+				{
+					"used": 2,
+					"value": [
+						2,
+						false
+					],
+					"name": "no-mixed-requires",
+					"link": "http://eslint.org/docs/rules/no-mixed-requires.html",
+					"description": "disallow mixing regular variable and require declarations (off by default) (on by default in the node environment)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-new-require",
+					"link": "http://eslint.org/docs/rules/no-new-require.html",
+					"description": "disallow use of new operator with the require function (off by default) (on by default in the node environment)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-path-concat",
+					"link": "http://eslint.org/docs/rules/no-path-concat.html",
+					"description": "disallow string concatenation with __dirname and __filename (off by default) (on by default in the node environment)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-process-exit",
+					"link": "http://eslint.org/docs/rules/no-process-exit.html",
+					"description": "disallow process.exit() (on by default in the node environment)"
+				},
+				{
+					"used": 0,
+					"value": 0,
+					"name": "no-restricted-modules",
+					"link": "http://eslint.org/docs/rules/no-restricted-modules.html",
+					"description": "restrict usage of specified node modules (off by default)"
+				},
+				{
+					"used": 0,
+					"value": 0,
+					"name": "no-sync",
+					"link": "http://eslint.org/docs/rules/no-sync.html",
+					"description": "disallow use of synchronous methods (off by default)"
+				}
+			]
+		},
+		{
+			"name": "Stylistic Issues",
+			"description": "These rules are purely matters of style and are quite subjective.",
+			"rules": [
+				{
+					"name": "brace-style",
+					"link": "http://eslint.org/docs/rules/brace-style.html",
+					"description": "enforce one true brace style (off by default)"
+				},
+				{
+					"used": 0,
+					"value": 0,
+					"name": "camelcase",
+					"link": "http://eslint.org/docs/rules/camelcase.html",
+					"description": "require camel case names"
+				},
+				{
+					"used": 2,
+					"value": [
+						2,
+						"self"
+					],
+					"name": "consistent-this",
+					"link": "http://eslint.org/docs/rules/consistent-this.html",
+					"description": "enforces consistent naming when capturing the current execution context (off by default)"
+				},
+				{
+					"used": 0,
+					"value": 0,
+					"name": "eol-last",
+					"link": "http://eslint.org/docs/rules/eol-last.html",
+					"description": "enforce newline at the end of file, with no multiple empty lines"
+				},
+				{
+					"used": 0,
+					"value": 0,
+					"name": "func-names",
+					"link": "http://eslint.org/docs/rules/func-names.html",
+					"description": "require function expressions to have a name (off by default)"
+				},
+				{
+					"used": 2,
+					"value": [
+						2,
+						"expression"
+					],
+					"name": "func-style",
+					"link": "http://eslint.org/docs/rules/func-style.html",
+					"description": "enforces use of function declarations or expressions (off by default)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "new-cap",
+					"link": "http://eslint.org/docs/rules/new-cap.html",
+					"description": "require a capital letter for constructors"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "new-parens",
+					"link": "http://eslint.org/docs/rules/new-parens.html",
+					"description": "disallow the omission of parentheses when invoking a contructor with no arguments"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-nested-ternary",
+					"link": "http://eslint.org/docs/rules/no-nested-ternary.html",
+					"description": "disallow nested ternary expressions (off by default)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-array-constructor",
+					"link": "http://eslint.org/docs/rules/no-array-constructor.html",
+					"description": "disallow use of the Array constructor"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-lonely-if",
+					"link": "http://eslint.org/docs/rules/no-lonely-if.html",
+					"description": "disallow if as the only statement in an else block (off by default)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-new-object",
+					"link": "http://eslint.org/docs/rules/no-new-object.html",
+					"description": "disallow use of the Object constructor"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-spaced-func",
+					"link": "http://eslint.org/docs/rules/no-spaced-func.html",
+					"description": "disallow space between function identifier and application"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-space-before-semi",
+					"link": "http://eslint.org/docs/rules/no-space-before-semi.html",
+					"description": "disallow space before semicolon"
+				},
+				{
+					"used": 0,
+					"value": 0,
+					"name": "no-ternary",
+					"link": "http://eslint.org/docs/rules/no-ternary.html",
+					"description": "disallow the use of ternary operators (off by default)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-trailing-spaces",
+					"link": "http://eslint.org/docs/rules/no-trailing-spaces.html",
+					"description": "disallow trailing whitespace at the end of lines (off by default)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-underscore-dangle",
+					"link": "http://eslint.org/docs/rules/no-underscore-dangle.html",
+					"description": "disallow dangling underscores in identifiers"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-wrap-func",
+					"link": "http://eslint.org/docs/rules/no-wrap-func.html",
+					"description": "disallow wrapping of non-IIFE statements in parens"
+				},
+				{
+					"used": 0,
+					"value": 0,
+					"name": "no-mixed-spaces-and-tabs",
+					"link": "http://eslint.org/docs/rules/no-mixed-spaces-and-tabs.html",
+					"description": "disallow mixed spaces and tabs for indentation"
+				},
+				{
+					"used": 0,
+					"value": 0,
+					"name": "quotes",
+					"link": "http://eslint.org/docs/rules/quotes.html",
+					"description": "specify whether double or single quotes should be used"
+				},
+				{
+					"used": 0,
+					"value": 0,
+					"name": "quote-props",
+					"link": "http://eslint.org/docs/rules/quote-props.html",
+					"description": "require quotes around object literal property names (off by default)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "semi",
+					"link": "http://eslint.org/docs/rules/semi.html",
+					"description": "require or disallow use of semicolons instead of ASI"
+				},
+				{
+					"used": 0,
+					"value": 0,
+					"name": "sort-vars",
+					"link": "http://eslint.org/docs/rules/sort-vars.html",
+					"description": "sort variables within the same declaration block (off by default)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "space-after-keywords",
+					"link": "http://eslint.org/docs/rules/space-after-keywords.html",
+					"description": "require a space after certain keywords (off by default)"
+				},
+				{
+					"used": 0,
+					"value": 0,
+					"name": "space-in-brackets",
+					"link": "http://eslint.org/docs/rules/space-in-brackets.html",
+					"description": "require or disallow spaces between brackets (off by default)"
+				},
+				{
+					"name": "space-infix-ops",
+					"link": "http://eslint.org/docs/rules/space-infix-ops.html",
+					"description": "require spaces around operators"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "space-return-throw-case",
+					"link": "http://eslint.org/docs/rules/space-return-throw-case.html",
+					"description": "require a space after return, throw, and case"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "space-unary-word-ops",
+					"link": "http://eslint.org/docs/rules/space-unary-word-ops.html",
+					"description": "require a space around word operators such as typeof (off by default)"
+				},
+				{
+					"used": 0,
+					"value": 0,
+					"name": "max-nested-callbacks",
+					"link": "http://eslint.org/docs/rules/max-nested-callbacks.html",
+					"description": "specify the maximum depth callbacks can be nested (off by default)"
+				},
+				{
+					"used": 0,
+					"value": 0,
+					"name": "one-var",
+					"link": "http://eslint.org/docs/rules/one-var.html",
+					"description": "allow just one var statement per function (off by default)"
+				},
+				{
+					"used": 0,
+					"value": 0,
+					"name": "wrap-regex",
+					"link": "http://eslint.org/docs/rules/wrap-regex.html",
+					"description": "require regex literals to be wrapped in parentheses (off by default)"
+				}
+			]
+		},
+		{
+			"name": "Legacy",
+			"description": "The following rules are included for compatibility with JSHint and JSLint. While the names of the rules may not match up with the JSHint/JSLint counterpart, the functionality is the same.",
+			"rules": [
+				{
+					"used": 2,
+					"value": [
+						2,
+						4
+					],
+					"name": "max-depth",
+					"link": "http://eslint.org/docs/rules/max-depth.html",
+					"description": "specify the maximum depth that blocks can be nested (off by default)"
+				},
+				{
+					"used": 2,
+					"value": [
+						2,
+						150
+					],
+					"name": "max-len",
+					"link": "http://eslint.org/docs/rules/max-len.html",
+					"description": "specify the maximum length of a line in your program (off by default)"
+				},
+				{
+					"used": 2,
+					"value": [
+						2,
+						10
+					],
+					"name": "max-params",
+					"link": "http://eslint.org/docs/rules/max-params.html",
+					"description": "limits the number of parameters that can be used in the function declaration. (off by default)"
+				},
+				{
+					"used": 2,
+					"value": [
+						2,
+						50
+					],
+					"name": "max-statements",
+					"link": "http://eslint.org/docs/rules/max-statements.html",
+					"description": "specify the maximum number of statement allowed in a function (off by default)"
+				},
+				{
+					"used": 2,
+					"value": 2,
+					"name": "no-bitwise",
+					"link": "http://eslint.org/docs/rules/no-bitwise.html",
+					"description": "disallow use of bitwise operators (off by default)"
+				},
+				{
+					"used": 0,
+					"value": 0,
+					"name": "no-plusplus",
+					"link": "http://eslint.org/docs/rules/no-plusplus.html",
+					"description": "disallow use of unary operators, ++ and -- (off by default)"
+				}
+			]
+		},
+		{
+			"name": "Resources",
+			"description": "\nRule source\nDocumentation source\n",
+			"rules": [
+				{
+					"name": "Rule source",
+					"link": "http://eslint.org/docs/rules/Rule source.html"
+				},
+				{
+					"name": "Documentation source",
+					"link": "http://eslint.org/docs/rules/Documentation source.html"
+				}
+			]
+		}
+	]
+}

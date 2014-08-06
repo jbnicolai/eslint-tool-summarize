@@ -1,0 +1,9 @@
+test config
+
+
+testCategoryName-testCategoryDescription
+
+
+|0-testRuleValue| [testRuleName](testRuleLink): testRuleDescription
+
+
