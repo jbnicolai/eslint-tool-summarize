@@ -1,8 +1,8 @@
 # eslint-tool-summarize
 [![npm](http://img.shields.io/npm/v/eslint-tool-summarize.svg)](https://www.npmjs.org/package/eslint-tool-summarize)
 [![license](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Nate-Wilkins/eslint-tool-summarize/blob/master/LICENSE)
-[![build](http://img.shields.io/travis/Nate-Wilkins/eslint-tool-summarize)
-[![dependencies](https://david-dm.org/nate-wilkins/eslint-tool-summarize.png)](https://david-dm.org/nate-wilkins/eslint-tool-summarize#info=dependencies)
+[![build](http://img.shields.io/travis/Nate-Wilkins/eslint-tool-summarize)](https://travis-ci.org/Nate-Wilkins/angular-spec)
+[![dependencies](https://david-dm.org/nate-wilkins/eslint-tool-summarize.png)](https://david-dm.org/nate-wilkins/eslint-tool-summarize)
 
 ## Description
 
