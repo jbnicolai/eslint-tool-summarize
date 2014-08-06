@@ -102,10 +102,6 @@ module.exports = {
 			templatePath = path.join(__dirname, "./default-template.html");
 		}
 
-		var err = null, output;
-		try { output = nunjucks.render(templatePath, context); }
-		catch(renderErr) { err = renderErr; }
-
-		generated_callback(err, output);
+		nunjucks.render(templatePath, context, generated_callback);
 	}
 };
