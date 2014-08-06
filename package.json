@@ -1,6 +1,6 @@
 {
   "name": "eslint-tool-summarize",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate a summary of the ESLint Rules used in a .eslintrc configuration file.",
   "main": "./src/summarize.js",
   "bin": {
@@ -14,11 +14,13 @@
   "homepage": "http://github.com/nate-wilkins/eslint-tool-summarize",
   "bugs": "http://github.com/nate-wilkins/eslint-tool-summarize/issues",
   "dependencies": {
+    "async": "^0.9.0",
     "chai": "^1.9.1",
     "chalk": "~0.5.1",
-    "commander": "~2.2.0",
+    "commander": "~2.3.0",
     "intel": "^1.0.0-b4",
-    "nunjucks": "~1.0.5"
+    "nunjucks": "~1.0.5",
+    "scrap": "^0.1.0"
   },
   "devDependencies": {
     "gulp": "^3.8.7",
