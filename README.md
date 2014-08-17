@@ -1,14 +1,10 @@
 # eslint-tool-summarize
 [![npm](http://img.shields.io/npm/v/eslint-tool-summarize.svg)](https://www.npmjs.org/package/eslint-tool-summarize)
 [![license](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Nate-Wilkins/eslint-tool-summarize/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/Nate-Wilkins/eslint-tool-summarize.svg?branch=master)](https://travis-ci.org/Nate-Wilkins/eslint-tool-summarize)
+[![status](https://travis-ci.org/Nate-Wilkins/eslint-tool-summarize.svg?branch=master)](https://travis-ci.org/Nate-Wilkins/eslint-tool-summarize)
 [![dependencies](https://david-dm.org/nate-wilkins/eslint-tool-summarize.png)](https://david-dm.org/nate-wilkins/eslint-tool-summarize)
 
-## Description
-
-Generate a summary of the [ESLint Rules](http://eslint.org/docs/rules/) used in a `.eslintrc` configuration file.
-
-## Install
+> Generate a summary of the [ESLint Rules](http://eslint.org/docs/rules/) used in a `.eslintrc` configuration file.
 
 ```bash
 $ npm install eslint-tool-summarize -g
@@ -37,7 +33,7 @@ summarize.load('./.eslintrc', function (err, templateContext) {
 });
 ```
 
-## Custom Templates - TemplateContext
+## Custom Templates (`templateContext`)
 
 ```
 {

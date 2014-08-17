@@ -14,7 +14,7 @@ var expect = require('chai').expect;
 
 var summarize = require('./../../src/summarize');
 
-process.chdir("./tests");
+process.chdir("./specs");
 
 describe("summarize module", function () {
 	it("should be able to load a `.eslintrc` configuration file", function (spec_callback) {

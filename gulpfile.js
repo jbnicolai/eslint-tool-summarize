@@ -18,7 +18,7 @@ require('./build/tasks')({
 	},
 
 	test: {
-		files: ["./tests/**/*-spec.js"],
+		files: ["./specs/**/*-spec.js"],
 		reporter: 'dot'
 	}
 });
