@@ -16,7 +16,7 @@
   "dependencies": {
     "async": "^0.9.0",
     "chai": "^1.9.1",
-    "chalk": "~0.5.1",
+    "chalk": "~1.0.0",
     "commander": "~2.3.0",
     "intel": "^1.0.0-b4",
     "nunjucks": "~1.0.5",
